@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --configuration production --verbose",
+    "build:prod": "ng build --configuration production --verbose --base-href /ui/",
     "test": "jest --no-cache --watch",
     "test:ci": "jest --no-cache",
     "lint:eslint": "ng lint",

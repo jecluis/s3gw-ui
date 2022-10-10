@@ -34,7 +34,7 @@ export class RgwService {
     // Try to load the configuration file containing the information
     // to access the RGW.
     this.http
-      .get<RgwServiceConfig>('/assets/rgw_service.config.json', {
+      .get<RgwServiceConfig>('assets/rgw_service.config.json', {
         headers: {
           /* eslint-disable @typescript-eslint/naming-convention */
           'Cache-Control': 'no-cache',
